@@ -20,10 +20,10 @@ observe(obj)
 new Watcher(obj, 'a.m.n', (val, oldVal)=>{
 	console.log('⭐️⭐️⭐️⭐️⭐️⭐️',val,oldVal)
 })
-obj.a.m.n++
-obj.a.m.n++
-obj.a.m.n++
-obj.a.m.n++
+// obj.a.m.n++
+// obj.a.m.n++
+// obj.a.m.n++
+// obj.a.m.n++
 // obj.b++  
 // obj.a.m.n++
 // obj.c.splice(2,1,{a: 777})
